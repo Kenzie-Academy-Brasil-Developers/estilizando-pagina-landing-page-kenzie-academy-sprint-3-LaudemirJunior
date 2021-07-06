@@ -66,15 +66,11 @@ figcaption {
   padding: 10px;
 }
 
-nav svg {
-  margin: 23px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.fas {
 }
 
 @media (min-width: 768px) {
-  nav svg {
+  .fas {
     display: none;
   }
 }
@@ -152,7 +148,7 @@ nav svg {
 /* ------------------------- */
 
 .flex-col img {
-  width: 250px;
+  width: 200px;
 }
 
 .flex-col figure {
@@ -218,7 +214,7 @@ nav svg {
 .flex-col li {
   text-align: left;
   color: #303030;
-  line-height: 150%;
+  line-height: 200%;
 }
 
 .flex-col figcaption {

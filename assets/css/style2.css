@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.secaoCursos ul{
+   width: 415px;
+   margin: 0 auto;
+}
+
+.secaoCursos{
+    width: 1045px;
+    margin: 0 auto;
+}
+
+.secaoCursos ul li img{
+    width: 275px;
+}
+
+.secaoCursos h2{
+  font-size: 19px;
+  text-align: center;
+  color: #303030;
+}
+
+.secaoCursos h3{
+  font-size: 19px;
+  text-align: center;
+  color: #303030;
+}
+
+.secaoCursos p{
+  font-size: 15px;
+  text-align: center;
+  color: #818181;
+}
+
+.secaoCursos img{
+  margin-left: 70px;
+}

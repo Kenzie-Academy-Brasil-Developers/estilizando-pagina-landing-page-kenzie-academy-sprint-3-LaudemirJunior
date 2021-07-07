@@ -283,16 +283,17 @@ footer img{
   }
 
   .form-input-model{
-    margin-left: 13px;
+    margin-left: 10px;
   }
 
   #email{
-    margin: 15px 0px 10px -80px;
+    margin: 15px 0px 10px -27px;
     width: 191px;
   }
 
   #nome{
     width:192px;
+    margin: 15px 0 10px -3px;
   }
 
   .form_section_input{
@@ -353,7 +354,7 @@ footer img{
 
 @media screen and (min-width: 1040px){
   #email {
-    margin: 15px 0px 10px -30px;
+    margin: 15px 0px 10px -27px;
   }  
 
   #nome{

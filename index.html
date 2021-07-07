@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="icon-96x96.webp">
   <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
   integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
   <title>Landing Page Kenzie Academy</title>
 </head>
 
@@ -129,37 +129,37 @@
         <ul>
 
           <li>
-            <img src="assets/img/html-css.png" alt="">
+            <img src="assets/img/html-css.png" alt="" class="small-img">
             <h3>Html/Css</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
 
           <li>
-            <img src="assets/img/js.png" alt="">
+            <img src="assets/img/js.png" alt="" class="medium-img">
             <h3>JavaScript</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
 
           <li>
-            <img src="assets/img/react.png" alt="">
+            <img src="assets/img/react.png" alt="" class="medium-img">
             <h3>React</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
 
           <li>
-            <img src="assets/img/py.webp" alt="">
+            <img src="assets/img/py.webp" alt="" class="medium-img">
             <h3>Python</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
 
           <li>
-            <img src="assets/img/dj.png" alt="">
+            <img src="assets/img/dj.png" alt="" class="large-img">
             <h3>Django</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
 
           <li>
-            <img src="assets/img/multitasking.svg" alt="">
+            <img src="assets/img/multitasking.svg" alt="" class="medium-img">
             <h3 style="color:#303030;">Soft Skills</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
@@ -171,10 +171,10 @@
     </section>
 
     <section class="secaoCalendar">
-
-      <h2>SCHEDULE</h2>
-      <p>Lorem ipsum dolor sit schedule</p>
-
+      <div class="schedule">
+        <h2>SCHEDULE</h2>
+        <p>Lorem ipsum dolor sit schedule</p>
+      </div>
       <!-- LISTA CALENDÁRIO -->
       <ul class="calendario">
 
@@ -220,19 +220,28 @@
 
     <section class="secaoContato">
 
-      <div class="flex">
-
+      <div class="flex2">
+        <h2>Contact</h2>
         <!-- COLUNA LADO ESQUERDO -->
-        <div class="flex-col">
-
+        <div class="flex-col2">
+          
           <div class="secaoContato-informacoes">
 
             <p>Contact us and we'll get back to you within 24 hours.</p>
 
             <ul>
-              <li><a href="#">Chicago, US</a> </li>
-              <li><a href="tel:001515151515">+00 1515151515</a></li>
-              <li><a href="malito:myemail@something.com">myemail@something.com</a></li>
+              <li>
+                <img src="assets/img/location.png" alt="location" class="icon-size">
+                <a href="#" class="secaoContato-link">Chicago, US</a> 
+              </li>
+              <li>
+                <img src="assets/img/celular.png" alt="telefone" class="icon-size">
+                <a href="tel:001515151515">+00 1515151515</a>
+              </li>
+              <li>
+                <img src="assets/img/e-mail.png" alt="E-mail" class="icon-size">
+                <a href="malito:myemail@something.com">myemail@something.com</a>
+              </li>
             </ul>
 
           </div>
@@ -240,25 +249,24 @@
         </div>
 
         <!-- COLUNA LADO DIRETO -->
-        <div class="flex-col">
+        <div class="flex-col2">
+          
+          <form>
+            <section class="form_section_input">
+              <div class="form-input-model">
+                <label for="nome" class="hidden">Name</label>
+                <input type="text" placeholder="Name" id="nome" name="nome">
+              </div>
 
-          <h2>Contact</h2>
-
-          <form action="">
-
+              <div class="form-input-model">
+                <label for="email" class="hidden">E-mail</label>
+                <input type="text" placeholder="E-mail" id="email" name="email">
+              </div>
+            </section>
+            
             <div class="form-input-model">
-              <label for="nome">Nome</label>
-              <input type="text" placeholder="Name" id="nome" name="nome">
-            </div>
-
-            <div class="form-input-model">
-              <label for="email">E-mail</label>
-              <input type="text" placeholder="E-mail" id="email" name="email">
-            </div>
-
-            <div class="form-input-model">
-              <label for="mensagem">E-mail</label>
-              <textarea name="mensagem" id="mensagem"></textarea>
+              <label for="mensagem" class="hidden">E-mail</label>
+              <textarea name="mensagem" id="mensagem" placeholder="Comment"></textarea>
             </div>
 
             <input type="submit" value="Send">
@@ -274,6 +282,7 @@
   </main>
 
   <footer>
+    <img src="/assets/img/seta.png" alt="cima">
     <p>Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
   </footer>
 

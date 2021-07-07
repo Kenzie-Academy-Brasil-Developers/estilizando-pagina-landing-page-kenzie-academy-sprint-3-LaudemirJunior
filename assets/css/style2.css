@@ -26,6 +26,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .secaoCursos {
@@ -94,9 +95,9 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.secaoCalendar div p {
-  /* width: 1045px; */
-}
+/* .secaoCalendar div p {
+width: 1045px;
+} */
 
 .secaoCalendar h3 {
   text-align: center;
@@ -248,17 +249,17 @@ input[type="submit"] {
   padding: 3px;
 }
 
-footer p {
-  /* width: 1045px;
+/* footer p {
+  width: 1045px;
   text-align: center;
-  margin-top: 15px; */
-}
+  margin-top: 15px;
+} */
 
-footer img {
-  /* width: 25px;
+/* footer img {
+  width: 25px;
   margin-left: 515px;
-  margin-top: 25px; */
-}
+  margin-top: 25px;
+} */
 
 footer {
   display: flex;
@@ -355,7 +356,7 @@ footer {
   }
 
   .secaoCursos ul {
-    width: 1045px;
+    /* width: 1045px; */
     display: flex;
     flex-wrap: wrap;
   }

@@ -225,7 +225,7 @@ figcaption {
     font-size: 63px;
   }
   .flex-col {
-    width: 40vw;
+    width: 35vw;
     height: 400px;
     display: flex;
     align-items: center;

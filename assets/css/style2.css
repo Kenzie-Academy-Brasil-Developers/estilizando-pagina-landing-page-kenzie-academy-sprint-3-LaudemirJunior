@@ -352,8 +352,16 @@ footer img{
 
 
 @media screen and (min-width: 1040px){
+  #email {
+    margin: 15px 0px 10px -30px;
+  }  
+
+  #nome{
+    margin: 15px 0 10px -3px;
+  }
+
   footer{
-    padding-left: 60px;
+    padding-left: 365px;
   }
 
   .flex2{
@@ -362,7 +370,7 @@ footer img{
     padding-right: 20px;
     padding-bottom: 40px;
     padding-top: 40px;
-    padding-left: 140px;
+    padding-left: 450px;
     background-color: rgb(236, 241, 241);
   }
 

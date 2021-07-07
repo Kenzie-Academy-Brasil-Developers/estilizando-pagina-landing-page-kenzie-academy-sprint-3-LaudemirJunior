@@ -1,47 +1,57 @@
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 /* JP */
-:root{
+:root {
   --dark-grey: #303030;
   --light-grey: #818181;
   --dark-blue: #00043e;
   --light-blue: #007aff;
 }
 
-.secaoCursos ul{
-  width: 415px;
+.secaoCursos ul {
+  /* width: 415px; */
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secaoCursos li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secaoCursos {
+  /* width: 1045px; */
   margin: 0 auto;
 }
 
-.secaoCursos{
-  width: 1045px;
-  margin: 0 auto;
+.medium-img {
+  width: 158px;
+  /* margin-top: 75px;
+  margin-left: 130px; */
 }
 
-
-.medium-img{
-  width:158px;
-  margin-top: 75px;
-  margin-left: 130px;
+.small-img {
+  width: 250px;
+  /* margin-top: 75px;
+  margin-left: 80px; */
 }
 
-.small-img{
-  width:250px;
-  margin-top: 75px;
-  margin-left: 80px;
+.large-img {
+  width: 125px;
+  /* margin-top: 75px;
+  margin-left: 145px; */
 }
 
-.large-img{
-  width:125px;
-  margin-top: 75px;
-  margin-left: 145px;
-}
-
-.secaoCursos h2{
+.secaoCursos h2 {
   font-size: 19px;
   text-align: center;
   color: var(--dark-grey);
@@ -49,7 +59,7 @@
   margin-top: 25px;
 }
 
-.secaoCursos h3{
+.secaoCursos h3 {
   font-size: 19px;
   text-align: center;
   color: var(--dark-grey);
@@ -57,43 +67,42 @@
   font-family: "Lato", sans-serif;
 }
 
-.secaoCursos p{
+.secaoCursos p {
   font-size: 15px;
   text-align: center;
   color: var(--light-grey);
 }
 
-.calendario{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.calendario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.secaoCalendar p{
+.secaoCalendar p {
   font-size: 15px;
   text-align: center;
   color: var(--light-grey);
 }
 
-.secaoCalendar h2{
+.secaoCalendar h2 {
   margin-top: 75px;
   font-size: 19px;
   text-align: center;
   color: var(--dark-grey);
-  width: 1045px;
+  /* width: 1045px; */
   font-family: "Montserrat", sans-serif;
 }
 
-.secaoCalendar div p{
-  width: 1045px;
+.secaoCalendar div p {
+  /* width: 1045px; */
 }
 
-.secaoCalendar h3{
+.secaoCalendar h3 {
   text-align: center;
 }
 
-.calendario-data{
+.calendario-data {
   text-align: center;
   background: #00043e;
   color: white;
@@ -111,13 +120,12 @@
   border-top: rgb(204, 206, 206) solid 1px;
 }
 
-.secaoCalendar ul{
-  width: 1045px;
+.secaoCalendar ul {
+  /* width: 1045px; */
   text-align: -webkit-center;
-
 }
 
-.secaoCalendar ul li{
+.secaoCalendar ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,18 +135,18 @@
   font-family: "Lato", sans-serif;
 }
 
-.secaoCalendar h3{
+.secaoCalendar h3 {
   font-size: 19px;
   margin-top: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.secaoCalendar p{
+.secaoCalendar p {
   font-size: 15px;
 }
 
-.calendario-data-rodape button{
+.calendario-data-rodape button {
   font-size: 16px;
   padding: 10px;
   background: #007aff;
@@ -149,58 +157,58 @@
   border-radius: 5px;
 }
 
-.calendario-data-rodape span{
+.calendario-data-rodape span {
   margin-bottom: 15px;
   margin-top: 28px;
   font-size: 19px;
   color: var(--light-grey);
 }
 
-.flex2{
+.flex2 {
   text-align: center;
-  width: 1045px;
+  /* width: 1045px; */
   padding-right: 20px;
   padding-bottom: 40px;
   padding-top: 40px;
   background-color: rgb(236, 241, 241);
 }
 
-.secaoContato h2{
+.secaoContato h2 {
   font-family: "montserrat";
   font-size: 19px;
   color: var(--dark-grey);
 }
 
-.secaoContato p{
+.secaoContato p {
   color: var(--light-grey);
 }
 
-.secaoContato a{
+.secaoContato a {
   color: var(--light-grey);
   text-decoration: none;
 }
 
-.secaoContato-informacoes p{
+.secaoContato-informacoes p {
   width: 230px;
   text-align: start;
   margin: 0 auto;
 }
 
-.secaoContato-informacoes li{
+.secaoContato-informacoes li {
   width: 230px;
   margin: 0 auto;
   text-align: start;
 }
 
-.secaoContato-informacoes{
+.secaoContato-informacoes {
   margin-left: 40px;
 }
 
-.icon-size{
+.icon-size {
   width: 10px;
 }
 
-#nome{
+#nome {
   padding: 2px;
   margin: 15px 0 10px 0;
   border-radius: 3px;
@@ -208,7 +216,7 @@
   margin-right: 52px;
 }
 
-#email{
+#email {
   padding: 2px;
   margin: 7px 0 15px 0;
   border-radius: 3px;
@@ -217,11 +225,11 @@
   font-family: "Lato", sans-serif;
 }
 
-.flex-col2{
+.flex-col2 {
   margin-left: 10px;
 }
 
-.flex-col2 textarea{
+.flex-col2 textarea {
   border: var(--light-grey) solid 1px;
   border-radius: 3px;
   margin-right: 55px;
@@ -230,7 +238,7 @@
   font-family: "Lato", sans-serif;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   margin-left: 135px;
   background: white;
   border: var(--light-grey) solid 1px;
@@ -240,26 +248,31 @@ input[type="submit"]{
   padding: 3px;
 }
 
-footer p{
-  width: 1045px;
+footer p {
+  /* width: 1045px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 15px; */
 }
 
-footer img{
-  width: 25px;
+footer img {
+  /* width: 25px;
   margin-left: 515px;
-  margin-top: 25px;
+  margin-top: 25px; */
 }
 
-.hidden{
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hidden {
   visibility: hidden;
 }
 
-
-
-@media screen and (min-width: 768px){
-  .secaoContato h2{
+@media screen and (min-width: 768px) {
+  .secaoContato h2 {
     position: relative;
     bottom: 11px;
     left: 405px;
@@ -269,75 +282,74 @@ footer img{
     margin-top: 15px;
   }
 
-  input[type="submit"]{
+  input[type="submit"] {
     margin-left: 162px;
   }
 
-  .hidden{
+  .hidden {
     margin-right: -21px;
   }
 
-  .flex-col2 textarea{
+  .flex-col2 textarea {
     margin-right: 245px;
     width: 404px;
   }
 
-  .form-input-model{
+  .form-input-model {
     margin-left: 13px;
   }
 
-  #email{
+  #email {
     margin: 15px 0px 10px -80px;
     width: 191px;
   }
 
-  #nome{
-    width:192px;
+  #nome {
+    width: 192px;
   }
 
-  .form_section_input{
+  .form_section_input {
     display: flex;
     margin-left: 5px;
   }
 
-  .flex2{
+  .flex2 {
     display: flex;
     padding-left: 100px;
   }
-  
-  .calendario{
+
+  .calendario {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-left: 21px;
   }
 
-  .secaoCalendar ul li{
+  .secaoCalendar ul li {
     margin: 20px 20px 20px 0;
     width: 250px;
   }
-  
-  .medium-img{
-    width:95px;
+
+  .medium-img {
+    width: 95px;
     margin-left: 160px;
   }
-  
-  .small-img{
-    width:135px;
+
+  .small-img {
+    width: 135px;
     margin-left: 140px;
   }
-  
-  .large-img{
-    width:85px;
+
+  .large-img {
+    width: 85px;
     margin-left: 167px;
   }
 
-  .secaoCursos ul li p{
+  .secaoCursos ul li p {
     margin-left: 100px;
-   
   }
 
-  .secaoCursos  h3{
+  .secaoCursos h3 {
     width: 100px;
     margin-left: 158px;
   }
@@ -347,16 +359,14 @@ footer img{
     display: flex;
     flex-wrap: wrap;
   }
-
 }
 
-
-@media screen and (min-width: 1040px){
-  footer{
+@media screen and (min-width: 1040px) {
+  footer {
     padding-left: 400px;
   }
 
-  .flex2{
+  .flex2 {
     width: 75%;
     text-align: center;
     padding-right: 20px;
@@ -366,24 +376,16 @@ footer img{
     background-color: rgb(236, 241, 241);
   }
 
-  .secaoCalendar{
+  .secaoCalendar {
     width: 100%;
   }
 
-  .calendario{
+  .calendario {
     margin: auto;
   }
 
-  .schedule{
+  .schedule {
     width: 1045px;
     margin: 0 auto;
   }
-  
 }
-
-
-
-
-
-
-

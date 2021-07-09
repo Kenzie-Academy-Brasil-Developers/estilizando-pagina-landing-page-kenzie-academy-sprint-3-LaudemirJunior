@@ -107,6 +107,11 @@ body {
   border-radius: 0 3px 3px 0;
   padding: 7px;
   font-family: "Lato";
+  transform: translate(-10%);
+}
+
+.secaoDestaqueFormulario button:hover {
+  background-color: red;
 }
 
 .secaoDestaqueFormulario input {
@@ -364,6 +369,11 @@ body {
   width: 150px;
   font-family: "Lato", sans-serif;
   border-radius: 5px;
+}
+
+.calendario-data-rodape button:hover {
+  font-weight: bold;
+  opacity: 0.5;
 }
 
 .calendario-data-rodape span {

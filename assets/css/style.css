@@ -37,6 +37,7 @@ body {
 .topo li {
   list-style-type: none;
   padding: 10px;
+  font-family: "Lato";
 }
 
 .topo li:hover {

@@ -39,6 +39,10 @@ body {
   padding: 10px;
 }
 
+.topo li:hover {
+  background-color: #007aff;
+}
+
 .topo a {
   text-decoration: none;
   color: white;
@@ -49,6 +53,12 @@ body {
   width: 50px;
   padding: 10px;
 }
+
+.topo img:hover {
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
 .fas {
   color: white;
   font-size: 30px;

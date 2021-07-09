@@ -47,6 +47,7 @@
   }
   .flex1 {
     flex-direction: row;
+    padding-bottom: 50px;
   }
   .flex-col1 {
     width: 400px;
@@ -62,12 +63,15 @@
     width: 200px;
   }
   .form-input-model textarea {
-    width: 100%;
+    width: 99%;
     height: 115px;
   }
   input[type="submit"] {
     margin: unset;
     left: 84%;
+  }
+  input {
+    margin-right: 5px;
   }
   .flex-col1 {
     align-items: flex-start;

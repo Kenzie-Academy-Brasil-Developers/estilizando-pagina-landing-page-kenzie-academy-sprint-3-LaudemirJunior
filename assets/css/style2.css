@@ -18,6 +18,20 @@
   }
   .flex-col {
     flex-direction: column;
+    display: flex;
+  }
+  .flex-col:nth-child(4) {
+    text-align: left;
+  }
+  .flex-col:nth-child(1) {
+    align-items: flex-start;
+  }
+  .flex-col img {
+    width: 250px;
+  }
+  .flex-col h2 {
+    text-align: left;
+    padding-top: 25px;
   }
 
   .flex-col:nth-child(3) {
@@ -28,7 +42,7 @@
   }
   .calendario {
     flex-direction: row;
-    width: 900px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
   }
@@ -37,88 +51,6 @@
   }
   .flex1 {
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 21px;
-  }
 
-  .secaoCalendar ul li{
-    margin: 20px 20px 20px 0;
-    width: 250px;
-  }
-  
-  .medium-img{
-    width:95px;
-    margin-left: 160px;
-  }
-  
-  .small-img{
-    width:135px;
-    margin-left: 140px;
-  }
-  
-  .large-img{
-    width:85px;
-    margin-left: 167px;
-  }
-
-  .secaoCursos ul li p{
-    margin-left: 100px;
-   
-  }
-
-  .secaoCursos  h3{
-    width: 100px;
-    margin-left: 158px;
-  }
-
-  .secaoCursos ul {
-    width: 1045px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-}
-
-
-@media screen and (min-width: 1040px){
-  #email {
-    margin: 15px 0px 10px -27px;
-  }  
-
-  #nome{
-    margin: 15px 0 10px -3px;
-  }
-
-  footer{
-    padding-left: 435px;
-  }
-
-  .flex2{
-    width: 72%;
-    text-align: center;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-left: 500px;
-    background-color: rgb(236, 241, 241);
-  }
-
-  .secaoCalendar{
-    width: 100%;
-    padding-left: 55px;
-  }
-
-  .calendario{
-    margin: auto;
-  }
-
-  .schedule{
-    width: 1045px;
-    margin: 0 auto;
-  }
-
-  .flex-col:nth-child(3) {
-    height: 82%;
   }
 }

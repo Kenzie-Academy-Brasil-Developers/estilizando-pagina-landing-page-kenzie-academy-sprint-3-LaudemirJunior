@@ -51,7 +51,7 @@
   }
   .flex1 {
     flex-direction: row;
-    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .flex-col1 {
     width: 400px;

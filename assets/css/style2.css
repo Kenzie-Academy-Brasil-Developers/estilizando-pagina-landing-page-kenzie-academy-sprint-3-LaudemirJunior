@@ -51,6 +51,22 @@
   }
   .flex1 {
     flex-direction: row;
+   
+  }
+  
+  .topo img:hover{
+    border-radius: 20px;
+    background-color:lightblue;
+    
+  }
 
+  .topo a:hover{
+    background-color: white;
+    color: #00043e;
+    border-radius: 2px;
+  }
+
+  .secaoDestaqueFormulario button:hover{
+     background-color: rgb(165, 17, 17);
   }
 }

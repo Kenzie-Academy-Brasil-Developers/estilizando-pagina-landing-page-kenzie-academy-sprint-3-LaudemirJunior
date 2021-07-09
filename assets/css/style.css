@@ -462,6 +462,10 @@ footer {
   text-align: center;
 }
 
+footer p {
+  font-family: "Lato";
+}
+
 a {
   text-decoration: none;
 }

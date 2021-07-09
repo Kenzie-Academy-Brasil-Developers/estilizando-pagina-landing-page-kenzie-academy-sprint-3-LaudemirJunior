@@ -19,21 +19,51 @@
   .flex-col {
     flex-direction: column;
   }
+  .flex-col:nth-child(4) {
+    text-align: left;
+  }
+  .flex-col:nth-child(1) {
+    text-align: left;
+  }
+  .flex-col h2 {
+    text-align: left;
+    padding-top: 25px;
+  }
   .secaoCursos li {
     flex: 1 1 33%;
   }
   .calendario {
     flex-direction: row;
-    width: 900px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .secaoCalendar ul li {
     width: 200px;
   }
   .flex1 {
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  }
+  .form_section_input {
+    display: flex;
+  }
+  .form-input-model input {
+    width: 300px;
+    margin-right: 10px;
+  }
+  .form-input-model textarea {
+    width: 98.5%;
+  }
+  input[type="submit"] {
+    right: -88.5%;
+  }
+  .secaoContato h2 {
+    position: relative;
+    top: -100px;
+    left: 403px;
+  }
+  .flex-col1:nth-child(2) {
+    width: 100%;
+    padding: 0;
   }
 }

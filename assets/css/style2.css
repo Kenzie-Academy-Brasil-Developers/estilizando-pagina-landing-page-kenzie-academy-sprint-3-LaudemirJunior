@@ -18,12 +18,16 @@
   }
   .flex-col {
     flex-direction: column;
+    display: flex;
   }
   .flex-col:nth-child(4) {
     text-align: left;
   }
   .flex-col:nth-child(1) {
-    text-align: left;
+    align-items: flex-start;
+  }
+  .flex-col img {
+    width: 250px;
   }
   .flex-col h2 {
     text-align: left;
@@ -36,7 +40,7 @@
     flex-direction: row;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .secaoCalendar ul li {
     width: 200px;
@@ -44,26 +48,31 @@
   .flex1 {
     flex-direction: row;
   }
+  .flex-col1 {
+    width: 400px;
+  }
+  .secaoContato h2 {
+    position: relative;
+    left: 2.8%;
+  }
   .form_section_input {
     display: flex;
   }
   .form-input-model input {
-    width: 300px;
-    margin-right: 10px;
+    width: 200px;
   }
   .form-input-model textarea {
-    width: 98.5%;
+    width: 100%;
+    height: 115px;
   }
   input[type="submit"] {
-    right: -88.5%;
+    margin: unset;
+    left: 84%;
   }
-  .secaoContato h2 {
-    position: relative;
-    top: -100px;
-    left: 403px;
+  .flex-col1 {
+    align-items: flex-start;
   }
   .flex-col1:nth-child(2) {
-    width: 100%;
-    padding: 0;
+    justify-content: start;
   }
 }

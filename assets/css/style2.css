@@ -33,6 +33,10 @@
     text-align: left;
     padding-top: 25px;
   }
+
+  .flex-col:nth-child(3) {
+    height: 87%;
+  }
   .secaoCursos li {
     flex: 1 1 33%;
   }
@@ -47,6 +51,7 @@
   }
   .flex1 {
     flex-direction: row;
+  }
     padding-bottom: 50px;
   }
   .flex-col1 {

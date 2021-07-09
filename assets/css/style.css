@@ -57,7 +57,6 @@ body {
 .topo img:hover {
   border-radius: 100%;
   border: 1px solid white;
-}
 
 .fas {
   color: white;
@@ -82,10 +81,11 @@ body {
 
 .secaoDestaque p {
   font-size: 23px;
+  font-family: "Lato", sans-serif;
 }
 
 .secaoDestaque h2 {
-  font-size: 43px;
+  font-size: 40px;
   font-family: "Montserrat", sans-serif;
   margin: 0 19px 0 10px;
 }
@@ -140,23 +140,27 @@ body {
 }
 
 .flex-col h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Montserrat", sans-serif;
-  margin: 0 25px 0 25px;
+  margin: 35px 25px 0 25px;
+  color: var(--dark-grey);
 }
 
 .flex-col p {
   margin: 25px;
+  color: var(--dark-grey);
 }
 
 .flex-col span {
   margin: 25px;
+  color: var(--light-grey)
 }
 
 .flex-col ul {
   text-align: left;
   list-style-type: initial;
   margin: 50px;
+  color: var(--light-grey);
 }
 
 .flex-col img {
@@ -168,12 +172,14 @@ body {
 }
 
 .flex-col:nth-child(2) {
-  margin: 25px;
+  margin: 25px 25px 55px 25px;
 }
 
 .flex-col:nth-child(3) {
   background-color: #f6f6f6;
   margin: 0;
+  padding: 55px 0 0 0;
+
   width: 100%;
   height: 100%;
 }
@@ -190,13 +196,16 @@ body {
 
 .flex-col button {
   border-radius: 5px;
-  border: 0.5px solid #303030;
-  color: #303030;
-  padding: 5px 75px;
+  border: 0.5px solid #cbc7c7;
+  color: var(--dark-grey);
+  padding: 5px 70px;
   background-color: transparent;
   margin: 25px;
   font-size: 14px;
+  font-family: "Lato", sans-serif;
 }
+
+
 
 /* SEÇÃO CURSOS */
 
@@ -205,8 +214,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 25px 0 25px 0;
-  font-size: 19px;
+  padding: 70px 0 25px 0;
   margin: auto;
   max-width: 1024px;
 }
@@ -223,6 +231,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 15px;
 }
 
 .secaoCursos h2 {
@@ -230,10 +239,18 @@ body {
   font-size: 21px;
   font-weight: bold;
 }
-
-.secaoCursos p {
+.secaoCursos  p {
   margin: 25px 0 25px 0;
+  color: var(--dark-grey);
+  font-family: "Lato", sans-serif;
+}  
+
+.secaoCursos ul li p {
+  margin: 25px 0 25px 0;
+  color: var(--light-grey);
+  font-family: "Lato", sans-serif;
 }
+
 
 .secaoCursos h3 {
   margin: 10px 0 10px 0;
@@ -245,6 +262,10 @@ body {
   max-width: 150px;
 }
 
+.medium-img{
+  margin-top: 60px;
+}
+
 /* CALENDARIO */
 
 .secaoCalendar {
@@ -254,6 +275,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .schedule {
@@ -264,6 +286,7 @@ body {
   font-size: 21px;
   font-weight: bold;
   margin: 25px;
+  
 }
 
 .schedule p {
@@ -280,7 +303,7 @@ body {
 .secaoCalendar p {
   font-size: 15px;
   text-align: center;
-  color: var(--light-grey);
+  color: var(--dark-grey);
 }
 
 .secaoCalendar h2 {
@@ -288,6 +311,7 @@ body {
   text-align: center;
   color: var(--dark-grey);
   font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
 }
 
 .secaoCalendar h3 {
@@ -316,7 +340,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: #00043e solid 1px;
+  border: var(--dark-blue) solid 1px;
   width: 180px;
   margin: 20px 0 20px 0;
   font-family: "Lato", sans-serif;
@@ -331,6 +355,7 @@ body {
 
 .secaoCalendar p {
   font-size: 15px;
+  color: var(--light-grey);
 }
 
 .calendario-data-rodape button {
@@ -380,7 +405,7 @@ body {
 }
 
 .secaoContato-informacoes a {
-  color: #303030;
+  color: var(--light-grey);
 }
 
 .secaoContato h2 {
@@ -391,27 +416,37 @@ body {
   font-weight: bold;
   line-height: 50px;
   padding: 25px 0 25px 0;
+
 }
 
 .secaoContato p {
-  color: #303030;
+  color: var(--light-grey);
 }
 
 .hidden {
   display: none;
 }
 
-.form-input-model input,
+.form-input-model input {
+  width: 220px;
+  margin: 10px;
+  border: #cbc7c7 solid 1px;
+  border-radius: 3px;
+}
+
 .form-input-model textarea {
-  margin-bottom: 10px;
-  display: flex;
-  width: 250px;
+  width: 220px;
+  height: 100px;
+  margin: 10px;
+  border: #cbc7c7 solid 1px;
+  border-radius: 3px;
 }
 
 input[type="submit"] {
   background-color: white;
-  padding: 0px 15px 0px 15px;
-  border: 0.5px solid #303030;
+  padding: 0px 10px 0px 10px;
+  border: 0.5px solid #cbc7c7;
+
   border-radius: 3px;
   position: relative;
   left: 75%;

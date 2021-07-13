@@ -37,6 +37,11 @@ body {
 .topo li {
   list-style-type: none;
   padding: 10px;
+  font-family: "Lato";
+}
+
+.topo li:hover {
+  background-color: #007aff;
 }
 
 .topo a {
@@ -50,6 +55,10 @@ body {
   padding: 10px;
 }
 
+.topo img:hover {
+  border-radius: 100%;
+  border: 1px solid white;
+}
 
 .fas {
   color: white;
@@ -99,6 +108,11 @@ body {
   border-radius: 0 3px 3px 0;
   padding: 7px;
   font-family: "Lato";
+  transform: translate(-10%);
+}
+
+.secaoDestaqueFormulario button:hover {
+  background-color: red;
 }
 
 .secaoDestaqueFormulario input {
@@ -200,8 +214,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-
-
 /* SEÇÃO CURSOS */
 
 .secaoCursos {
@@ -234,11 +246,11 @@ body {
   font-size: 19px;
   font-weight: bold;
 }
-.secaoCursos  p {
+.secaoCursos p {
   margin: 25px 0 25px 0;
   color: var(--dark-grey);
   font-family: "Lato", sans-serif;
-}  
+}
 
 .secaoCursos ul li p {
   margin: 25px 0 25px 0;
@@ -246,7 +258,6 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 15px;
 }
-
 
 .secaoCursos h3 {
   margin: 10px 0 10px 0;
@@ -258,7 +269,7 @@ body {
   max-width: 150px;
 }
 
-.medium-img{
+.medium-img {
   margin-top: 60px;
 }
 
@@ -282,7 +293,6 @@ body {
   font-size: 21px;
   font-weight: bold;
   margin: 25px;
-  
 }
 
 .schedule p {
@@ -365,6 +375,11 @@ body {
   border-radius: 5px;
 }
 
+.calendario-data-rodape button:hover {
+  font-weight: bold;
+  opacity: 0.5;
+}
+
 .calendario-data-rodape span {
   margin-bottom: 15px;
   margin-top: 28px;
@@ -413,7 +428,6 @@ body {
   font-weight: bold;
   line-height: 50px;
   padding: 25px 0 25px 0;
-
 }
 
 .secaoContato p {
@@ -443,14 +457,17 @@ input[type="submit"] {
   background-color: white;
   padding: 0px 10px 0px 10px;
   border: 0.5px solid #cbc7c7;
-
   border-radius: 3px;
   position: relative;
-  left: 75%;
+  left: 74%;
 }
 
 footer {
   text-align: center;
+}
+
+footer p {
+  font-family: "Lato";
 }
 
 a {

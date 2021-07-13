@@ -51,22 +51,36 @@
   }
   .flex1 {
     flex-direction: row;
-   
+    padding-bottom: 50px;
   }
-  
-  .topo img:hover{
-    border-radius: 20px;
-    background-color:lightblue;
-    
+  .flex-col1 {
+    width: 400px;
   }
-
-  .topo a:hover{
-    background-color: white;
-    color: #00043e;
-    border-radius: 2px;
+  .secaoContato h2 {
+    position: relative;
+    left: 2.8%;
   }
-
-  .secaoDestaqueFormulario button:hover{
-     background-color: rgb(165, 17, 17);
+  .form_section_input {
+    display: flex;
+  }
+  .form-input-model input {
+    width: 200px;
+  }
+  .form-input-model textarea {
+    width: 95%;
+    height: 115px;
+  }
+  input[type="submit"] {
+    margin: unset;
+    left: 86%;
+  }
+  input {
+    margin-right: 5px;
+  }
+  .flex-col1 {
+    align-items: flex-start;
+  }
+  .flex-col1:nth-child(2) {
+    justify-content: start;
   }
 }
